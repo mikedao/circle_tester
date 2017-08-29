@@ -1,3 +1,10 @@
 language: ruby
 rvm:
-    - "2.4.1"
+- 2.4.1
+deploy:
+  provider: heroku
+  api_key:
+    secure: SlBqmeiKWjCxzK/Oz8/M7vCC7oTCdEDc//nIkXLo65ggo+N1eKpAGABdJ2swHMmiOkdEFiseX4MglYzomMQyIRppQt5PT4pkmAaBofuG5w12ZImEnQkdo3WCECpvCq31rkQ/pgXlEFZV0KT9htktODGZc7NMQy6NlbsG2Vqqs0yWjIwmufs+gMB2N1MABOmxRMlUfKhRwonWQMb3dlMC0XoMTOfrEepwm6P7/kVq+ZboVm6amdW6v4tZYlPiUmrGOpBInqfm4c/AbYtpXiCjZAoSYXK4d0fZh1cKpUhamdG6DSYCC2wMj+hWKMvxEFZ1OLpZbEhweT1IHgr3cAMkAONTxA/UXB7AruqeSfDf/1oS3rG2GrL258Eh/pL6i2w7Ehw5ZOgHWOFBPOw1Fm5xLNws6sDA8rWoxwtfwjK8w4AhNyhjZ1ccOy73CAPA1hUVHlb3SKAlkb/a7SboTBPQLUxJj6mLdE6/vOFmaCKyrJ2ONJAqkKA9wwsd19o3ePAvYnbQiDe4XoTBOMD9c/i8XuPbPhIrVU5m6LZXPwc5xYnnm3zA7jMC3UbvIX6/oYLvBGqxmKMvsJrJikCN8jEdOhc/FTjX8OXe5HYwkah5O5BJGR1H1gtdMKOcGlnpjhrq7GDTEjAnnNGDR+J1I0cQvKaWJ29ABn1e27PXFf/Dzyg=
+  app: fast-crag-99818
+  on:
+    repo: mikedao/circle_tester
